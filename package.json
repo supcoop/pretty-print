@@ -1,12 +1,11 @@
 {
-  "name": "pretty-print",
+  "name": "print-card",
   "version": "0.1.0",
-  "description": "Export and print your board with support for Markdown formatting.",
+  "description": "Export and print a card with support for Markdown formatting.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "sass": "sass --watch scss:public/css --no-source-map",
-    "heroku": "git push heroku main"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
@@ -24,7 +23,7 @@
     "node": "16.x"
   },
   "repository": {
-    "url": "https://pretty-print-board.herokuapp.com/"
+    "url": "https://righteous-pepper-carpet.glitch.me/"
   },
   "license": "MIT",
   "keywords": [
